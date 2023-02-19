@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="container mx-auto">
+      <div class="p-5 bg-blue-100 rounded-md">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="text-3xl font-semibold">Interactive</h1>
+            <h1>Geometry Genius</h1>
+          </div>
+          <button
+            onclick="window.location.href = 'index.html'"
+            id="geometry-genius"
+            class="bg-blue-400 text-white font-semibold px-7 rounded-lg"
+          >
+            Geometry Genius
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="bg-white">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <h2
+            class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+          >
+            Frequently asked questions
+          </h2>
+          <div
+            class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2"
+          >
+            <div>
+              <div class="mb-10">
+                <h3 class="flex items-center mb-4 text-lg font-medium">
+                  <svg
+                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  What is DOM and what is the purpose of DOM?
+                </h3>
+                <p class="text-gray-500 dark:text-gray-400">
+                  DOM stands for Document Object Model, and it is a programming
+                  interface for web documents. It's an essential component of
+                  modern web development, allowing for dynamic and interactive
+                  web pages. And it's allows developers to dynamically update
+                  the content and styling of a web page without needing to
+                  refresh the entire page.
+                </p>
+              </div>
+              <div class="mb-10">
+                <h3 class="flex items-center mb-4 text-lg font-medium">
+                  <svg
+                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  How will you select HTML elements using DOM? Name the DOM
+                  methods.
+                </h3>
+                <p class="text-gray-500 dark:text-gray-400">
+                  To select HTML elements using DOM, we can use various DOM
+                  methods. Some of the commonly used methods include:
+                  getElementById() - selects an element based on its ID
+                  attribute. getElementsByClassName() - selects elements based
+                  on their class name. getElementsByTagName() - selects elements
+                  based on their tag name. querySelector() - selects the first
+                  element that matches a specified CSS selector.
+                  querySelectorAll() - selects all elements that match a
+                  specified CSS selector.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="mb-10">
+                <h3 class="flex items-center mb-4 text-lg font-medium">
+                  <svg
+                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  What is event bubble?
+                </h3>
+                <p class="text-gray-500 dark:text-gray-400">
+                  Event bubbling is a process in which an event that is
+                  triggered on a nested element is propagated upwards through
+                  its parent elements in the DOM hierarchy. When an event occurs
+                  on a particular element, the event is first captured by that
+                  element and then propagated to its parent elements. This
+                  propagation continues until the event reaches the root of the
+                  document object, or until it is stopped by a registered event
+                  listener.
+                </p>
+              </div>
+              <div class="mb-10">
+                <h3 class="flex items-center mb-4 text-lg font-medium">
+                  <svg
+                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  What is a callback function and why will you use it?
+                </h3>
+                <p class="text-gray-500 dark:text-gray-400">
+                  A callback function is a function that is passed as an
+                  argument to another function and is called by that function.
+                  Callback functions are commonly used in asynchronous
+                  programming, where a function must wait for a task to complete
+                  before it can continue. By passing a callback function, the
+                  function can continue to execute while the task is being
+                  completed, and the callback function can be executed when the
+                  task is finished.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="js/script.js"></script>
+</html>
